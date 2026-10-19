@@ -1,0 +1,3 @@
+# T13 - K6+K7: ALL mode, secondary fails, primary succeeds
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,ALL: primary succeeded

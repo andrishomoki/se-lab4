@@ -1,0 +1,5 @@
+# T7 - K4: secondary is empty, so the primary fires every time
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,SINGLE: primary
+SUCCESS  # <- TORPEDO,SINGLE: secondary empty -> primary again
+SUCCESS  # <- TORPEDO,SINGLE: primary

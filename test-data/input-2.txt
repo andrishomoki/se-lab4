@@ -1,0 +1,3 @@
+# T2 - K2+K5: primary fires first; on failure the secondary is not tried
+GT4500,10,1.0,10,0  # primary always fails, secondary never fails
+TORPEDO,SINGLE  # expected FAIL: primary fired and failed, secondary not tried

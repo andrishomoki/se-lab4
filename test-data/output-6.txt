@@ -1,0 +1,3 @@
+# T6 - K4: primary is empty at the first shot, so the secondary fires
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,SINGLE: secondary fired instead of the empty primary

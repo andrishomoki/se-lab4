@@ -1,0 +1,3 @@
+# T10 - K6+K7: ALL mode, both stores fire successfully
+GT4500,10,0,10,0  # both stocked, never fail
+TORPEDO,ALL  # expected SUCCESS: both stores fired

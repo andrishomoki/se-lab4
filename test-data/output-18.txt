@@ -1,0 +1,4 @@
+# T18 - K4+K7 (white-box): primary fired last, then both stores are empty
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,SINGLE: primary fired
+FAIL  # <- TORPEDO,SINGLE: both stores empty

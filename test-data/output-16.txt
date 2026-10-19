@@ -1,0 +1,3 @@
+# T16 - K6+K7: ALL mode, secondary empty, primary fires
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,ALL: primary fired

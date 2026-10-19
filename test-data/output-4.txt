@@ -1,0 +1,6 @@
+# T4 - K3+K5: stores fire alternating, starting with the primary
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,SINGLE: primary
+FAIL  # <- TORPEDO,SINGLE: secondary (fails, primary not tried)
+SUCCESS  # <- TORPEDO,SINGLE: primary
+FAIL  # <- TORPEDO,SINGLE: secondary

@@ -1,0 +1,6 @@
+# T4 - K3+K5: stores fire alternating, starting with the primary
+GT4500,10,0,10,1.0  # primary never fails, secondary always fails
+TORPEDO,SINGLE  # expected SUCCESS: primary
+TORPEDO,SINGLE  # expected FAIL: secondary (fails, primary not tried)
+TORPEDO,SINGLE  # expected SUCCESS: primary
+TORPEDO,SINGLE  # expected FAIL: secondary
