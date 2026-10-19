@@ -1,0 +1,6 @@
+# T5 - K3+K5: stores alternate even if the primary fails
+SUCCESS  # <- GT4500
+FAIL  # <- TORPEDO,SINGLE: primary (fails, secondary not tried)
+SUCCESS  # <- TORPEDO,SINGLE: secondary
+FAIL  # <- TORPEDO,SINGLE: primary
+SUCCESS  # <- TORPEDO,SINGLE: secondary

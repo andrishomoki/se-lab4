@@ -1,0 +1,5 @@
+# T8 - K4: primary runs out, the secondary fires in its place
+GT4500,1,0,10,0  # one torpedo in the primary, ten in the secondary
+TORPEDO,SINGLE  # expected SUCCESS: primary (now empty)
+TORPEDO,SINGLE  # expected SUCCESS: secondary
+TORPEDO,SINGLE  # expected SUCCESS: primary is next but empty -> secondary

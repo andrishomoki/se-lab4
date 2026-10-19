@@ -1,0 +1,6 @@
+# T5 - K3+K5: stores alternate even if the primary fails
+GT4500,10,1.0,10,0  # primary always fails, secondary never fails
+TORPEDO,SINGLE  # expected FAIL: primary (fails, secondary not tried)
+TORPEDO,SINGLE  # expected SUCCESS: secondary
+TORPEDO,SINGLE  # expected FAIL: primary
+TORPEDO,SINGLE  # expected SUCCESS: secondary

@@ -1,0 +1,4 @@
+# T11 - K6: ALL mode really fires both stores
+GT4500,1,0,1,0  # one torpedo in each store, never fail
+TORPEDO,ALL  # expected SUCCESS: both stores fired
+TORPEDO,SINGLE  # expected FAIL: both stores are empty after ALL

@@ -1,0 +1,5 @@
+# T8 - K4: primary runs out, the secondary fires in its place
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,SINGLE: primary (now empty)
+SUCCESS  # <- TORPEDO,SINGLE: secondary
+SUCCESS  # <- TORPEDO,SINGLE: primary is next but empty -> secondary

@@ -1,0 +1,5 @@
+# T7 - K4: secondary is empty, so the primary fires every time
+GT4500,10,0,0,0  # stocked primary, empty secondary
+TORPEDO,SINGLE  # expected SUCCESS: primary
+TORPEDO,SINGLE  # expected SUCCESS: secondary empty -> primary again
+TORPEDO,SINGLE  # expected SUCCESS: primary

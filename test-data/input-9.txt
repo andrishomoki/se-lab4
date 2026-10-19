@@ -1,0 +1,3 @@
+# T9 - K4+K7: both stores empty in SINGLE mode
+GT4500,0,0,0,0  # both stores empty
+TORPEDO,SINGLE  # expected FAIL: nothing to fire

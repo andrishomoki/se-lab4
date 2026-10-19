@@ -1,0 +1,4 @@
+# T3 - K1: SINGLE mode fires only one store
+GT4500,1,0,1,0  # one torpedo in each store, never fail
+TORPEDO,SINGLE  # expected SUCCESS: only one store fired
+TORPEDO,SINGLE  # expected SUCCESS: the other store still had its torpedo

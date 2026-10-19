@@ -1,0 +1,4 @@
+# T11 - K6: ALL mode really fires both stores
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,ALL: both stores fired
+FAIL  # <- TORPEDO,SINGLE: both stores are empty after ALL

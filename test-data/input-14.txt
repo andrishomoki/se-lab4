@@ -1,0 +1,3 @@
+# T14 - K7: ALL mode, both stores fail
+GT4500,10,1.0,10,1.0  # both stores always fail
+TORPEDO,ALL  # expected FAIL: no torpedo fired successfully
